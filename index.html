@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Quicksand:wght@300..700&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <title>Em busca do castelo encantado</title>
+</head>
+
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.jpg" alt="">
+            <p>Em um final de semana, você estava no porão quando encontrou uma caixa com um mapa que falava sobre um
+                reino encantado, contava sobre a lenda do castelo misterioso e seus tesouros e você decide seguir o mapa.
+            </p>
+            <button class="btn-proximo" data-proximo="1">Fazenda</button>
+            <button class="btn-proximo" data-proximo="2">Parque</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="img/cenario-passo1.jpg" alt="">
+            <p>Você começa a aventura pela fazenda e encontra uma árvore com uma passagem secreta.
+                .
+            </p>
+            <button class="btn-proximo" data-proximo="3">Entrar e explorar</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Ao chegar no parque, você segue todas as instruções do mapa, ele aponta para duas direções diferentes.
+            </p>
+            <button class="btn-proximo" data-proximo="5">Ir a área de piquenique</button>
+            <button class="btn-proximo" data-proximo="6">Investigar a estufa</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Na passagem, você encontra um jardim secreto, nesse jardim, tem dois caminhos para seguir.
+            </p>
+            <button class="btn-proximo" data-proximo="7">Seguir o caminho dos girassóis</button>
+            <button class="btn-proximo" data-proximo="8">Seguir o caminha das lavandas</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4.jpg" alt="">
+            <p>Você desistiu de seguir em frente com a aventura, mas sempre fica pensando no que poderia ter encontrado.
+            </p>
+        </div>
+        <div class="passo" id="passo-5">
+            <img src="img/cenario-passo5.jpg" alt="">
+            <p>Você procura em toda parte, mas a única coisa que encontra é uma pista que leva para a estufa. 
+            </p>
+            <button class="btn-proximo" data-proximo="9">Voltar e ir para a estufa.</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <img src="img/cenario-passo6.jpg" alt="">
+            <p>Dentro da estufa, você vai até a floresta de ipê-branco, lá você encontra uma porta que leva a um jardim. </p>
+            <button class="btn-proximo" data-proximo="7">Seguir o caminho dos girassóis</button>
+            <button class="btn-proximo" data-proximo="8">Seguir o caminha das lavandas</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <img src="img/cenario-passo7.jpg" alt="">
+            <p>Você encontra apenas mais flores.</p>
+            <button class="btn-proximo" data-proximo="14">Voltar para o jardim.</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <img src="img/cenario-passo8.jpg" alt="">
+            <p>Você encontra uma porta brilhante que, segundo o mapa, é o portão para o reino encantado.
+            </p>
+            <button class="btn-proximo" data-proximo="10">Seguir pela floresta</button>
+            <button class="btn-proximo" data-proximo="11">Seguir pelo rio</button>
+        </div>
+        <div class="passo" id="passo-9">
+            <img src="img/cenario-passo6.jpg" alt="">
+            <p>Na estufa, você encontra a porta na floresta de ipê-branco.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir o caminho dos girassóis</button>
+            <button class="btn-proximo" data-proximo="8">Seguir o caminha das lavandas</button>
+        </div>
+        <div class="passo" id="passo-10">
+            <img src="img/cenario-passo10.jpg" alt="">
+            <p>Adentrando a floresta, você encontra ladrilhos brilhantes que te levam até o castelo.</p>
+            <button class="btn-proximo" data-proximo="13">Explorar o castelo</button>
+        </div>
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11.jpg" alt="">
+            <p>Você encontra apenas a cachoeira mágica.</p>
+            <button class="btn-proximo" data-proximo="12">Voltar e seguir pela floresta.</button>
+        </div>
+        <div class="passo" id="passo-12">
+            <img src="img/cenario-passo10.jpg" alt="">
+            <p>Adentrando a floresta, você encontra ladrilhos brilhantes que te levam até o castelo.</p>
+            <button class="btn-proximo" data-proximo="13">Explorar o castelo</button>
+        </div>
+        <div class="passo" id="passo-13">
+            <img src="img/cenario-passo13.jpg" alt="">
+            <p> Você encontra tesouros e recordações de pessoas que já passaram por lá.
+            </p>
+        </div>
+        <div class="passo" id="passo-14">
+            <p>De volta ao jardim, você segue pelo caminho que te restou.</p>
+            <button class="btn-proximo" data-proximo="8">Seguir o caminha das lavandas</button>
+        </div>
+        
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
